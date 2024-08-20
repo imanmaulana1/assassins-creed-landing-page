@@ -7,7 +7,23 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  min-height: 200vh;
+  min-height: 100vh;
+}
+
+.danger-custom {
+  color: rgb(172, 0, 0);
+}
+
+.bg-nav-custom {
+  background-color: #000000 !important;
+}
+
+.bg-dark-custom {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.mt-custom {
+  margin-top: 8rem;
 }
 
 #hero {
@@ -34,11 +50,13 @@ body {
   position: absolute;
   inset: 0;
   background: rgba(20, 20, 20, 0.534);
-  background: radial-gradient(
-    circle,
-    rgba(32, 32, 32, 0) 0%,
-    rgba(0, 0, 0, 0.93) 100%,
-    rgba(0, 0, 0, 0.377) 100%
+  background-image: linear-gradient(
+    to bottom,
+    #05193700,
+    #17122800,
+    #190a1a00,
+    #12040d00,
+    #000000
   );
   z-index: -2;
 }
@@ -62,10 +80,6 @@ body {
   text-transform: uppercase;
 }
 
-.danger-custom {
-  color: rgb(172, 0, 0);
-}
-
 .comingsoon {
   text-transform: uppercase;
   font-family: 'Assassins';
@@ -73,6 +87,9 @@ body {
   animation: fade 1.8s ease;
 }
 
+.navbar {
+  z-index: 9999 !important;
+}
 @keyframes fade {
   from {
     transform: translateY(-1rem);
@@ -83,14 +100,6 @@ body {
     transform: translateY(0);
     opacity: 1;
   }
-}
-
-.bg-dark-custom {
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.mt-custom {
-  margin-top: 8rem;
 }
 
 @media screen and (min-width: 575px) {
