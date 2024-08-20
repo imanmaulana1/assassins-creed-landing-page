@@ -56,7 +56,6 @@ body {
 
 .hero-lead {
   background-color: black;
-  font-family: 'Assassins';
   font-style: italic;
   font-weight: 700;
   letter-spacing: 6px;
@@ -69,6 +68,7 @@ body {
 
 .comingsoon {
   text-transform: uppercase;
+  font-family: 'Assassins';
   font-size: 2rem;
   animation: fade 1.8s ease;
 }
