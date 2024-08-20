@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Assassins';
+  src: url('../assets/fonts/Assassin$.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 200vh;
+}
+
+#hero {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../assets/images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.title {
+  font-family: 'Assassins', sans-serif;
+  font-size: 3.5rem;
+}
+
+.line {
+  border: none;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.hero-lead {
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.625rem;
+  text-transform: uppercase;
+}
+
+.danger-custom {
+  color: rgb(172, 0, 0);
+}
+
+@media screen and (min-width: 575px) {
+  .title {
+    font-size: 5rem;
+  }
+
+}
