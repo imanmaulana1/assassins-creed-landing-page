@@ -7,11 +7,11 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  min-height: 400vh;
+  min-height: 600vh;
 }
 
 .danger-custom {
-  color: rgb(172, 0, 0);
+  color: #ac0000;
 }
 
 .bg-nav-custom {
@@ -32,6 +32,15 @@ body {
 
 .fs-custom {
   font-size: 0.875rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ac0000 !important;
+  color: #ffffff !important;
+}
+
+.accordion-button:focus {
+  box-shadow:0 0 0 0.25rem rgb(101 101 101 / 25%);
 }
 
 #hero {
