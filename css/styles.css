@@ -128,7 +128,7 @@ body {
 }
 
 .btn-custom {
-  background-color: rgb(176, 0, 0) !important;
+  background-color: #b00000 !important;
   outline: none !important;
   border: none !important;
 }
@@ -153,6 +153,24 @@ body {
 .text-universe {
   font-size: 14px;
   font-family: 'Assassins';
+}
+
+.card-title {
+  height: 48px !important;
+}
+
+.fa-circle-chevron-left,
+.fa-circle-chevron-right {
+  color: #3a3a3a;
+  font-size: 2rem;
+  transition: all 0.4s ease;
+}
+
+.fa-circle-chevron-left:hover,
+.fa-circle-chevron-right:hover {
+  color: #b00000;
+  font-size: 2rem;
+  transform: scale(1.2);
 }
 
 @media screen and (min-width: 575px) {
