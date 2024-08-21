@@ -18,7 +18,7 @@ This is personal portfolio website that highlights my projects, and skills. The 
 1. Clone the repository:
 
 ```bash
-  git clone https://github.com/imanmaulana1//assassins-creed-landing-page.git
+  git clone https://github.com/imanmaulana1/assassins-creed-landing-page.git
 ```
 
 2. Navigate to the project directory:
