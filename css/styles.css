@@ -26,6 +26,10 @@ body {
   margin-top: 8rem;
 }
 
+.fs-custom {
+  font-size: 0.875rem;
+}
+
 #hero {
   width: 100%;
   min-height: 100vh;
@@ -104,6 +108,10 @@ body {
   font-style: italic;
   font-weight: 700;
   letter-spacing: 6px;
+}
+
+.section-subtitle {
+  font-size: 18px;
 }
 
 .video {
