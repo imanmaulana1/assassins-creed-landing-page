@@ -41,7 +41,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.418);
+  background-color: rgba(0, 0, 0, 0.2);
   z-index: -1;
 }
 
@@ -49,7 +49,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(20, 20, 20, 0.534);
+  background: rgba(20, 20, 20, 0.205);
   background-image: linear-gradient(
     to bottom,
     #05193700,
@@ -84,22 +84,23 @@ body {
   text-transform: uppercase;
   font-family: 'Assassins';
   font-size: 2rem;
-  animation: fade 1.8s ease;
+  opacity: 0;
+  animation: fade 1.8s ease 0.8s forwards;
 }
 
-.navbar {
-  z-index: 9999 !important;
-}
 @keyframes fade {
   from {
     transform: translateY(-1rem);
-    opacity: 0;
   }
 
   to {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+.navbar {
+  z-index: 9999 !important;
 }
 
 @media screen and (min-width: 575px) {
